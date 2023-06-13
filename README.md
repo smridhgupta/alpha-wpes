@@ -32,6 +32,7 @@ Download the Binary from Releases and run wpe.exe
 # Donate
 
 . BTC: bc1qykzfyjdkyck5v4sd46j4y8ra6mgltvu6zqu69s
+
 . XMR: 49RNZHq5kZJDJUK6RmnnxdhHwC7RNDTRM6VLj5ivsWiXGFXxdWFVJcHicrbY1TL4rn3fVhHGMNke4LmkJFVCsFuSEdcW47E
 
 # Warning
