@@ -27,7 +27,7 @@ Alpha Windows Privilege Escalation Suite
 
 # Usage
 
-Download the Binary from Releases and run wpe.exe
+Download the Binary from Releases and run wpe.exe in CMD.
 
 # Donate
 
