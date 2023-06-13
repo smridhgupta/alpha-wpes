@@ -1,6 +1,6 @@
-# windows-privilege-escalation
+# alpha-wpe
 
-Windows Privilege Escalation Tool
+Alpha Windows Privilege Escalation Suite
 
 # Features
 
