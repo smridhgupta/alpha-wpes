@@ -1,4 +1,4 @@
-# alpha-wpe
+# alpha-wpes
 
 Alpha Windows Privilege Escalation Suite
 
