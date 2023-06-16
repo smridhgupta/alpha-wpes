@@ -1,6 +1,6 @@
 # alpha-wpes
 
-Alpha Windows Privilege Escalation Suite is not detected as malicious by Windows Defender or any other AV.
+Alpha Windows Privilege Escalation Suite is not detected malicious by Windows Defender or any other AV.
 
 # Features
 
