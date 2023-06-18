@@ -1,5 +1,7 @@
 # alpha-wpes 2.0
 
+The binary will be released on 20/06/2023
+
 Alpha Windows Privilege Escalation Suite 2.0 is not detected malicious by Windows Defender or any other AV.
 
 # Features
