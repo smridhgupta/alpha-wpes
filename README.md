@@ -35,7 +35,7 @@ The tool provides valuable insights into the system's security posture and help 
 
 # Usage
 
-No need to clone just download the Binary from Releases and run wpe.exe in CMD.
+No need to clone just download the Binary from Releases and run awpes.exe in CMD.
 
 # Donate
 
