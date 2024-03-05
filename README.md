@@ -58,9 +58,13 @@ No need to clone just download the Binary from Releases and run awpes.exe in CMD
 
 . BTC: bc1qykzfyjdkyck5v4sd46j4y8ra6mgltvu6zqu69s
 
-# Warning
+# Disclamer
 
-This project is only for educational purposes. I am not responsible for any misuse!
+The developer retains the copyright to the script uploaded on this repository. This script is provided for educational and informational purposes only.
+
+The developer makes no representations or warranties regarding the accuracy or completeness of the script. Users downloading or utilizing the script do so at their own risk and discretion. The developer shall not be liable for any direct, indirect, incidental, special, or consequential damages arising out of the use or inability to use the script.
+
+By downloading or using the script, you agree to abide by the terms and conditions mentioned here. If you have any questions or need further information, please contact the developer Smridh Gupta, Email- smridhgupta@proton.me.
 
 # Contact
 smridhgupta@proton.me
