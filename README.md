@@ -4,7 +4,6 @@
 
 ![image](https://github.com/smridhgupta/alpha-wpes/assets/106184548/4ada09ba-8f5d-48e5-8762-cc3b51817921)
 
-
 Alpha Windows Privilege Escalation Suite 3.0
 
 # Features
