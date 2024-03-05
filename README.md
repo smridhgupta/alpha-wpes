@@ -54,6 +54,8 @@ Alpha Windows Privilege Escalation Suite is designed to gather a wide array of s
 
 No need to clone just download the Binary from Releases and run awpes3.exe in CMD.
 
+NOTE: To make the most of it, run it as Administrator in CMD.
+
 # Donate
 
 . BTC: bc1qykzfyjdkyck5v4sd46j4y8ra6mgltvu6zqu69s
