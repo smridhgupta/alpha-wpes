@@ -33,7 +33,7 @@ Alpha Windows Privilege Escalation Suite is designed to gather a wide array of s
 
 11. Sensitive Information Extraction: Tries to extract sensitive information like WiFi profiles and passwords, user personal info, and SSH keys, which could be used for further attacks.
 
-12. Remote Access and User Account Creation: Attempts to create new user account “hacker” with password “Hacker123 with administrative privileges and enable remote desktop access, directly compromising the system's security.
+12. Remote Access and User Account Creation: Attempts to create new user account “hacker” with password “Hacker123!" with administrative privileges and enable remote desktop access, directly compromising the system's security.
 
 13. Defeating Security Defenses: Performs various actions aimed at defeating Windows Defender, Windows Firewall, App and Browser Control, and other security measures to maintain access and evade detection.
 
