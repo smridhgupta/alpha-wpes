@@ -4,7 +4,7 @@
 
 # Released 4th March, 2024
 
-![DALLE2024-03-0419 18 29-Createanimagedepictingasophisticatedhackingtoolinterfacenamed22AWPES22 Theinterfaceshouldlooklikeadark-themedcommandlineterminalwit-ezgif com-webp-to-jpg-converter](https://github.com/smridhgupta/alpha-wpes/assets/106184548/0e9b1dfb-fdcb-4121-8ea6-9942d9e5dfd4)
+![DALLE2024-03-0420 26 40-Createanimagedepictingasophisticatedhackingtoolinterfacenamed22AWPES22 Theinterfaceshouldlooklikeadark-themedcommandlineterminalwit-ezgif com-webp-to-jpg-converter](https://github.com/smridhgupta/alpha-wpes/assets/106184548/80a33ec7-8ba8-4e2b-b61d-b881fc74d4f5)
 
 
 # Features
