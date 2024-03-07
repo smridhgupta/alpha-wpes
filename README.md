@@ -56,6 +56,8 @@ No need to clone just download the Binary from Releases and run awpes3.exe in CM
 
 NOTE: To make the most of it, run it as Administrator in CMD.
 
+<img width="1178" alt="Screenshot 2024-03-05 at 4 01 33 PM" src="https://github.com/smridhgupta/alpha-wpes/assets/106184548/0baf45b6-00a8-4dd8-a937-2ae768698a6d">
+
 # Donate
 
 . BTC: bc1qykzfyjdkyck5v4sd46j4y8ra6mgltvu6zqu69s
