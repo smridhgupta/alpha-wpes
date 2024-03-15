@@ -2,8 +2,6 @@
 
 # Alpha Windows Privilege Escalation Suite 3.0
 
-# Released 4th March, 2024
-
 ![DALLE2024-03-0420 26 40-Createanimagedepictingasophisticatedhackingtoolinterfacenamed22AWPES22 Theinterfaceshouldlooklikeadark-themedcommandlineterminalwit-ezgif com-webp-to-jpg-converter](https://github.com/smridhgupta/alpha-wpes/assets/106184548/80a33ec7-8ba8-4e2b-b61d-b881fc74d4f5)
 
 
