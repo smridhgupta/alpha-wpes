@@ -4,7 +4,10 @@
 
 <img width="1178" alt="Screenshot 2024-03-05 at 4 01 33 PM" src="https://github.com/smridhgupta/alpha-wpes/assets/106184548/0baf45b6-00a8-4dd8-a937-2ae768698a6d">
 
+
+
 Alpha Windows Privilege Escalation Suite is designed to gather a wide array of system, network, and security information, as well as perform certain actions that compromise system security.
+
 
 Performs various system checks and operations aimed at identifying potential vulnerabilities and escalating privileges on Windows systems.
 
