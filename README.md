@@ -2,50 +2,11 @@
 
 # Alpha Windows Privilege Escalation Suite 3.0
 
-![DALLE2024-03-0420 26 40-Createanimagedepictingasophisticatedhackingtoolinterfacenamed22AWPES22 Theinterfaceshouldlooklikeadark-themedcommandlineterminalwit-ezgif com-webp-to-jpg-converter](https://github.com/smridhgupta/alpha-wpes/assets/106184548/80a33ec7-8ba8-4e2b-b61d-b881fc74d4f5)
+<img width="1178" alt="Screenshot 2024-03-05 at 4 01 33 PM" src="https://github.com/smridhgupta/alpha-wpes/assets/106184548/0baf45b6-00a8-4dd8-a937-2ae768698a6d">
 
+Alpha Windows Privilege Escalation Suite is designed to gather a wide array of system, network, and security information, as well as perform certain actions that compromise system security.
 
-# Features
-
-Alpha Windows Privilege Escalation Suite is designed to gather a wide array of system, network, and security information, as well as perform certain actions that compromise system security. 
-
-1. System and OS Information Gathering: It collects detailed system information, OS versions, and lists Windows updates, helping to identify potentially vulnerable components.
-
-2. Security Updates and Hotfix IDs: Retrieves and lists security updates and hotfix IDs to assess the patch level of the system.
-
-3. Environment and Configuration: Extracts environment variables, PowerShell history, and checks for specific registry settings that could indicate system configuration and potential security weaknesses.
-
-4. Network and Sharing Information: Lists network drives, queries Windows Server Update Services (WSUS) settings, and displays network shares, which could reveal sensitive information or misconfigurations.
-
-5. User and Group Information: Lists all users, groups, and specific group memberships like Administrators, Remote Desktop Group, providing insight into potential targets for privilege escalation.
-
-6. Security Policies and Auditing: Checks policies related to AlwaysInstallElevated, audit settings, and Windows Event Forwarding, which might offer avenues for privilege escalation.
-
-7. Credential Management: Enumerates stored credentials, Logon credentials, and LSA protection, which could be exploited to gain higher privileges.
-
-8. Networking and Communication: Retrieves IP configuration, lists open ports, and views routing tables, which is useful for both lateral movement and understanding the network layout.
-
-9. Software and Services: Lists running services, processes, installed software, and startup programs, identifying potential vulnerable applications or services that run with high privileges.
-
-10. Security Tool Configuration and Weaknesses: Attempts to modify security tool configurations, such as disabling Defender or firewall settings, to evade detection and restrictions.
-
-11. Sensitive Information Extraction: Tries to extract sensitive information like WiFi profiles and passwords, user personal info, and SSH keys, which could be used for further attacks.
-
-12. Remote Access and User Account Creation: Attempts to create new user account “hacker” with password “Hacker123!" with administrative privileges and enable remote desktop access, directly compromising the system's security.
-
-13. Defeating Security Defenses: Performs various actions aimed at defeating Windows Defender, Windows Firewall, App and Browser Control, and other security measures to maintain access and evade detection.
-
-14. SSH and PuTTY Configurations: Extracts SSH agent keys, PuTTY session information, and SSH host keys, which might be used for unauthorized access to other systems.
-
-15. Web Server Configuration Files: Searches for web.config files in common web server directories (inetpub, xampp) that could contain sensitive application settings or database connection strings.
-
-16. SNMP Configuration: Checks the Simple Network Management Protocol (SNMP) configuration for potential misuse or information disclosure.
-
-17. Network Shares and Mapping: Lists network shares, attempts to map them locally, and queries domain shares, which could expose sensitive information or be leveraged for lateral movement.
-
-18. Software and Registry Enumeration: Lists installed software and queries registry keys related to software, startup programs, and third-party drivers, looking for vulnerable applications or misconfigurations.
-
-19. Miscellaneous: Includes actions like checking for third-party drivers, viewing the hosts file, and retrieving the contents of the clipboard, which could contain sensitive information.
+Performs various system checks and operations aimed at identifying potential vulnerabilities and escalating privileges on Windows systems.
 
 
 # Usage
@@ -54,7 +15,158 @@ No need to clone just download the Binary from Releases and run awpes3.exe in CM
 
 NOTE: To make the most of it, run it as Administrator in CMD.
 
-<img width="1178" alt="Screenshot 2024-03-05 at 4 01 33 PM" src="https://github.com/smridhgupta/alpha-wpes/assets/106184548/0baf45b6-00a8-4dd8-a937-2ae768698a6d">
+
+# Features
+
+```
+System Info:
+
+Enumerates Basic System Information
+Gets OS Version
+Lists Windows updates
+Enumerates Processor Architecture
+Retrieves Hotfix IDs
+Lists Security Updates
+Gets Environment variables
+Gets PowerShell History
+Gets PowerShell Transcript files
+PowerShell Module Logging Information
+Queries Internet Settings
+Displays Drives
+```
+
+```
+Users:
+
+Enumerates User
+Enumerates All Local Users
+Logged Uses/Sessions
+User Password Policy
+Gets Clipboard
+```
+
+```
+Groups:
+
+Enumerates All Groups
+Gets Users Under Group Administrators
+Gets User Privileges
+Gets Account Operators
+Admin SD Holder Users Groups
+Members of the "Backup Operators" Group
+Members of the "DnsAdmins" Group
+Members of the "Event Log Readers" Group
+Members of the "Exchange Windows Permissions" Group
+Members of the "Remote Desktop Users" Group
+Members of the "Remote Management Users" Group
+Members of the "Server Operators" Group
+```
+
+```
+Services and Processes:
+
+Running Services and Processes
+Gets SYSTEM Processes
+List of Services
+Service Brief
+Gets Binary Path of Services
+Gets System32 Services
+Lists Installed Software
+Gives User trusted Services suggestion
+Check for Programs run on Startup
+```
+
+```
+Network:
+
+Get a list of computers
+Shares on the Domains
+Shares of this computers
+Tries to Mount the Share locally
+Current Shares
+TCP/IP HOSTS File
+Windows IP Configuration
+Open Ports
+Routing Table
+ARP Table 
+Firewall Rules
+```
+
+```
+Antiviruses and Detectors:
+
+Gets Audit Settings
+Checks for Windows Event Forwarding
+Check for Admin Password Enable
+Local Security Authority (LSA) Protection check
+Check for Credential Guard
+```
+
+```
+Extracting Credentials:
+
+Alpha-WPES also includes features that could be utilized for malicious purposes, such as extracting sensitive information like passwords from different locations.
+Getting SAM and SYSTEM dump as well as cached credentials.
+Queries Windows Registry for certain values related to user authentication
+Retrieves user personal information, which might include stored credentials used for network authentication.
+Attempts to extract Wi-Fi passwords stored on the system.
+Retrieves SSH-related information, including stored session configurations and SSH host keys, which can be used for authentication.
+```
+
+```
+Hacker:
+
+Alpha-WPES attempts to add a new user with elevated privileges to the system.
+It tries to add a new user with the username "hacker" and the password "Hacker123!".
+It adds the newly created user to the administrators group.
+Enables Remote Desktop access.
+Allow Remote Desktop connections by setting specific registry keys.
+Adds a rule to allow incoming Remote Desktop Protocol (RDP) traffic through port 3389.
+```
+
+```
+Defeating Windows Defender:
+
+Alphs-WPES attempts to defeat Windows Defender by modifying various system settings and configurations.
+It adds an exclusion for files with the ".exe" extension, which might contain malicious scripts.
+Disables User Account Control (UAC)
+Disables Controlled Folder Access
+Disables Potentially Unwanted Application (PUA) Protection
+Sets Default Actions for Threats to Quarantine
+Sets Scan Schedule Day to Day Saturday
+Disables Windows Firewall for all profiles.
+```
+
+```
+Miscellaneous Checks:
+
+Profiles on Wi-Fi
+Enumerates SNMP
+Extracts Winlogon Info
+Extracts user personal info
+Gets Putty Sessions
+Attempts to Start SSH Agent
+Looks for web.config file in inetpub
+Lists Installed Third Party Drivers
+Looks for web.config file in xampp
+Adds domain object ACL for the specified principal with all rights.
+Getting the ACL of the Domain Admins group and resolves GUIDs
+Retrieves deleted objects from Active Directory
+Gets WSUS Info.
+Check for AlwaysInstallElevated
+```
+
+# Scenario 1: Elevating Privileges for Robust Remote Hacking
+
+Your objective is to test the organization's network defenses by simulating an attacker who has already gained initial access to a system but needs to escalate their privileges to access more sensitive areas of the network. Here, the Alpha Windows Privilege Escalation Suite comes into play. 
+It displays detailed system information, lists installed updates, and identifies potential security vulnerabilities without breaking a sweat. It stealthily queries system settings, evades defences, extracts sensitive information, and even adds a new administrator user that too within seconds, ensuring that your access is not just elevated but cemented, allowing for deeper penetration into the system. The suite becomes the cornerstone of your strategy, enabling an extremely fast, efficient, and robust privilege escalation process that is essential for the success of your operation.
+
+
+# Scenario 2: Swift Data Exfiltration with a Physical Hotplug Device
+
+Now, imagine you're demonstrating the risks associated with physical access to computer systems. A scenario where a seemingly innocuous USB device, such as a Rubber Ducky, is used for rapid data exfiltration. Embedded with the Alpha Windows Privilege Escalation Suite, this device is not just a tool; it's a master key to any system it touches.
+As soon as the device is plugged into, it bypasses security measures, querying system configurations, and extracting critical data all within the blink of an eye. The tool's capability to retrieve Wi-Fi passwords, list running services, and extract saved credentials, all without leaving a trace is phenomenal.
+This powerful demonstration serves as a stark reminder of the importance of physical security measures and the potential consequences of neglecting them.
 
 # Donate
 
