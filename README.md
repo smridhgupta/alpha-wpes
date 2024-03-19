@@ -14,7 +14,11 @@ Performs various system checks and operations aimed at identifying potential vul
 
 # Usage
 
-No need to clone just download the Binary from Releases and run awpes3.exe in CMD.
+```
+git clone https://github.com/smridhgupta/alpha-wpes.git
+cd alpha-wpes
+awpes3.exe
+```
 
 NOTE: To make the most of it, run it as Administrator in CMD.
 
