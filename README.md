@@ -42,9 +42,9 @@ Queries Internet Settings
 Displays Drives
 ```
 
-```
-Users:
 
+Users:
+```
 Enumerates User
 Enumerates All Local Users
 Logged Uses/Sessions
@@ -52,9 +52,9 @@ User Password Policy
 Gets Clipboard
 ```
 
-```
-Groups:
 
+Groups:
+```
 Enumerates All Groups
 Gets Users Under Group Administrators
 Gets User Privileges
@@ -69,9 +69,9 @@ Members of the "Remote Management Users" Group
 Members of the "Server Operators" Group
 ```
 
-```
-Services and Processes:
 
+Services and Processes:
+```
 Running Services and Processes
 Gets SYSTEM Processes
 List of Services
@@ -83,9 +83,9 @@ Gives User trusted Services suggestion
 Check for Programs run on Startup
 ```
 
-```
-Network:
 
+Network:
+```
 Get a list of computers
 Shares on the Domains
 Shares of this computers
@@ -99,9 +99,9 @@ ARP Table
 Firewall Rules
 ```
 
-```
-Antiviruses and Detectors:
 
+Antiviruses and Detectors:
+```
 Gets Audit Settings
 Checks for Windows Event Forwarding
 Check for Admin Password Enable
@@ -109,9 +109,9 @@ Local Security Authority (LSA) Protection check
 Check for Credential Guard
 ```
 
-```
-Extracting Credentials:
 
+Extracting Credentials:
+```
 Alpha-WPES also includes features that could be utilized for malicious purposes, such as extracting sensitive information like passwords from different locations.
 Getting SAM and SYSTEM dump as well as cached credentials.
 Queries Windows Registry for certain values related to user authentication
@@ -120,9 +120,9 @@ Attempts to extract Wi-Fi passwords stored on the system.
 Retrieves SSH-related information, including stored session configurations and SSH host keys, which can be used for authentication.
 ```
 
-```
-Hacker:
 
+Hacker:
+```
 Alpha-WPES attempts to add a new user with elevated privileges to the system.
 It tries to add a new user with the username "hacker" and the password "Hacker123!".
 It adds the newly created user to the administrators group.
@@ -131,9 +131,9 @@ Allow Remote Desktop connections by setting specific registry keys.
 Adds a rule to allow incoming Remote Desktop Protocol (RDP) traffic through port 3389.
 ```
 
-```
-Defeating Windows Defender:
 
+Defeating Windows Defender:
+```
 Alphs-WPES attempts to defeat Windows Defender by modifying various system settings and configurations.
 It adds an exclusion for files with the ".exe" extension, which might contain malicious scripts.
 Disables User Account Control (UAC)
@@ -144,9 +144,9 @@ Sets Scan Schedule Day to Day Saturday
 Disables Windows Firewall for all profiles.
 ```
 
-```
-Miscellaneous Checks:
 
+Miscellaneous Checks:
+```
 Profiles on Wi-Fi
 Enumerates SNMP
 Extracts Winlogon Info
