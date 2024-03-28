@@ -25,9 +25,9 @@ NOTE: To make the most of it, run it as Administrator in CMD.
 
 # Features
 
-```
-System Info:
 
+System Info:
+```
 Enumerates Basic System Information
 Gets OS Version
 Lists Windows updates
