@@ -177,7 +177,7 @@ This powerful demonstration serves as a stark reminder of the importance of phys
 
 # Donate
 
-. BTC: bc1qykzfyjdkyck5v4sd46j4y8ra6mgltvu6zqu69s
+. XMR: 87SARF3f1LWLMec8mEBDcuiPUPYzyBz3CDcZSLas23hCCEvmcQDh36mhQ2QK22PbYTNMoozXFzsSTFz7nbZNsVUD3pmMNWd
 
 # Disclamer
 
